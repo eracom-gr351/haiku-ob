@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+	font-family: 'Yatra One', cursive;
+
+}
+
+body {
+	background-color: #000000
+    color: #ffffff;
+    font-size: 1em;
+    line-height: 1.4;
+	font-family: 'Yatra One', cursive;
+
+}
+article {
+	width: 70%;
+	float: left;
+	margin-top: 0%;
+	padding:10px;
+	font: 1em/150% 'Titillium';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Clearfix: contain floats
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
