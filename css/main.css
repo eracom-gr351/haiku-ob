@@ -11,19 +11,21 @@ html {
 }
 
 body {
-	background-color: #000000
-    color: #ffffff;
-    font-size: 1em;
-    line-height: 1.4;
-	font-family: 'Yatra One', cursive;
-
-}
+ background:url("fonddecranempire.jpg") no-repeat center fixed;
+  background-size: cover; 
+  -webkit-background-size: cover;
+    font: 1em/150% 'Yatra One';
+ }
+ 
+ 
 article {
-	width: 70%;
-	float: left;
-	margin-top: 0%;
+	width: 45%;
+	margin-top: 15%;
+	margin-bottom: 15%;
+	margin-left: 15%;
+	margin-right: 15%;
 	padding:10px;
-	font: 1em/150% 'Titillium';
+	font: 1em/150% 'Yatra One', cursive;
 }
 
 
